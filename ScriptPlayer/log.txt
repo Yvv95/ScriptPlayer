@@ -1,0 +1,224 @@
+Script execution: 04.08.2017 06:30:50  s1.sql 
+s1.sql: 04.08.2017 06:30:50  1 row(s) affected 
+ 
+s1.sql: 04.08.2017 06:30:50  Message:S1 script 
+===================
+Empty table
+===================
+
+
+Script execution: 04.08.2017 06:30:50  s2.sql 
+Exception: 04.08.2017 06:30:50  System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '1'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ScriptPlayer.Program.executeScript(String fileName, String Path, String connectionString) in C:\Users\Yusupov.V\documents\visual studio 2015\Projects\ScriptPlayer\ScriptPlayer\Program.cs:line 55
+ClientConnectionId:22ae5c7e-3058-4ddb-b16b-2ceaafff4ac6
+Error Number:102,State:1,Class:15 
+
+File doesnt exist: 04.08.2017 06:30:50  C:\Users\Yusupov.V\Desktop\s0.sql 
+
+Script execution: 04.08.2017 06:30:50  s4.sql 
+s4.sql: 04.08.2017 06:30:50  Message:simple print1 
+===================
+|      |
+-----------------
+|   162   |
+===================
+
+s4.sql: 04.08.2017 06:30:50  1 row(s) affected 
+ 
+s4.sql: 04.08.2017 06:30:50  1 row(s) affected 
+ 
+s4.sql: 04.08.2017 06:30:50  1 row(s) affected 
+ 
+
+Script execution: 04.08.2017 06:30:50  s3.sql 
+s3.sql: 04.08.2017 06:30:50  1 row(s) affected 
+ 
+===================
+Empty table
+===================
+
+
+Script execution: 04.08.2017 06:30:50  s5.sql 
+===================
+|   Vcode   Vname   |
+-----------------
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   print2   123   |
+|   print3   123   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+|   123   123   |
+|   print2   123   |
+|   print3   123   |
+|   122   122   |
+===================
+
+
