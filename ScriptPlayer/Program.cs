@@ -11,6 +11,10 @@ namespace ScriptPlayer
 {
     class Program
     {
+
+        //TODO
+        //Пофиксить с xml - файлом. Сделать List<string> Files
+
         //логи выводятся в папку с проектом рядом с app.config
         private static string _path;
         private static int _errors = 0;
