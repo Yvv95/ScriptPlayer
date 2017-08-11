@@ -44,11 +44,17 @@ namespace ScriptPlayer {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection names {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["names"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"
           <FilesNames>
-            
             <Files>
-              
               <fileItem>
                 <file>
                   s1.sql
@@ -85,14 +91,6 @@ namespace ScriptPlayer {
         public global::ScriptPlayer.FilesNames files {
             get {
                 return ((global::ScriptPlayer.FilesNames)(this["files"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public global::System.Collections.Specialized.StringCollection names {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["names"]));
             }
         }
     }

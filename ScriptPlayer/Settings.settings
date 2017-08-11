@@ -12,12 +12,13 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=106PC0051;Initial Catalog=ExchRates;Integrated Security=True</Value>
     </Setting>
+    <Setting Name="names" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
     <Setting Name="files" Type="ScriptPlayer.FilesNames" Scope="Application">
       <Value Profile="(Default)">
           &lt;FilesNames&gt;
-            
             &lt;Files&gt;
-              
               &lt;fileItem&gt;
                 &lt;file&gt;
                   s1.sql
@@ -51,9 +52,6 @@
             &lt;/Files&gt;
           &lt;/FilesNames&gt;
         </Value>
-    </Setting>
-    <Setting Name="names" Type="System.Collections.Specialized.StringCollection" Scope="Application">
-      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>
